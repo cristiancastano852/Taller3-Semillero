@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
+import punto1_figurasGeometricas.Main1;
+import punto2_sistemaDeNotificaciones.Main2;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         boolean exit = false;
 
         while (!exit) {
-            System.out.println("       Menú Principal");
+            System.out.println("       \nMenú Principal");
             System.out.println("1. punto 1: Figuras Geométricas");
             System.out.println("2. punto 2: Sistemas de Notificaciones");
             System.out.println("3. punto 3: Banco y cuentas");
@@ -59,50 +62,51 @@ public class App {
                 default:
                     System.out.println("Opción inválida. Por favor, seleccione una opción válida.");
             }
-            
+
         }
         System.out.println("¡Hasta luego!");
         scanner.close();
     }
 
-        public static void point1() {
-       
-        }
-
-        public static void point2() {
-       
-        }
-
-        public static void point3() {
-       
-        }
-
-        public static void point4() {
-
-        }
-
-        public static void point5() {
-
-        }
-
-        public static void point6() {
-
-        }
-
-        public static void point7() {
-
-        }
-
-        public static void point8() {
-
-        }
-
-        public static void point9() {
-
-        }
-
-        public static void point10() {
-
-        }
+    public static void point1() {
+        Main1 punto1 = new Main1();
+        punto1.main(null);
     }
 
+    public static void point2() {
+        Main2 punto1 = new Main2();
+        punto1.main(null);
+    }
+
+    public static void point3() {
+
+    }
+
+    public static void point4() {
+
+    }
+
+    public static void point5() {
+
+    }
+
+    public static void point6() {
+
+    }
+
+    public static void point7() {
+
+    }
+
+    public static void point8() {
+
+    }
+
+    public static void point9() {
+
+    }
+
+    public static void point10() {
+
+    }
+}
