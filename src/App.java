@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 import punto1_figurasGeometricas.Main1;
 import punto2_sistemaDeNotificaciones.Main2;
+import punto3_bancoycuentas.Main3;
+import punto4_juegoDeCartas.Main4;
+import punto5_TiendaEnLinea.Main5;
+import punto6_animalesYsonidos.Main6;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -69,28 +73,41 @@ public class App {
     }
 
     public static void point1() {
+        System.out.println("\n---Figuras Geométricas---");
         Main1 punto1 = new Main1();
         punto1.main(null);
     }
 
     public static void point2() {
-        Main2 punto1 = new Main2();
-        punto1.main(null);
+        System.out.println("\n---Sistema de Notificaciones---");
+        Main2 punto2 = new Main2();
+        punto2.main(null);
     }
 
     public static void point3() {
-
+        System.out.println("\n---Banco y cuentas---");
+        Main3 punto3 = new Main3();
+        punto3.main(null);
     }
 
     public static void point4() {
-
+        System.out.println("\n---Juego de Cartas---");
+        Main4 punto4 = new Main4();
+        punto4.main(null);
     }
 
     public static void point5() {
+        System.out.println("\n---Tienda en línea---");
+        Main5 punto5 = new Main5();
+        punto5.main(null);
 
     }
 
     public static void point6() {
+        System.out.println("\n---Animales y sonidos---");
+        Main6 punto6 = new Main6();
+        punto6.main(null);
+        
 
     }
 
