@@ -1,6 +1,6 @@
 package punto1_figurasGeometricas;
 
-class Cuadrado extends FiguraBase {
+public class Cuadrado extends FiguraBase {
     private double lado;
 
     public Cuadrado(String nombre, double lado) throws MedidaInvalidaException {

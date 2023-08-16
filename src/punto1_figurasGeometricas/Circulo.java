@@ -1,6 +1,6 @@
 package punto1_figurasGeometricas;
 
-class Circulo extends FiguraBase {
+public class Circulo extends FiguraBase {
     private double radio;
 
     public Circulo(String nombre, double radio) throws MedidaInvalidaException {

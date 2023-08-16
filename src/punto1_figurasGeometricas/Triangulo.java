@@ -1,6 +1,6 @@
 package punto1_figurasGeometricas;
 
-class Triangulo extends FiguraBase {
+public class Triangulo extends FiguraBase {
     private double base;
     private double altura;
 
