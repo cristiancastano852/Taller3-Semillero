@@ -2,6 +2,8 @@ package punto1_figurasGeometricas;
 
 public class Main1 {
     public void main(String[] args) {
+        System.out.println("\n---Figuras Geométricas---");
+
         try {
 
             Circulo circulo = new Circulo("Círculo", 5);

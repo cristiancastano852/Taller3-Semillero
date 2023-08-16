@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Main2 {
     public static void main(String[] args) {
+        System.out.println("\n---Sistema de Notificaciones---");
 
         // Creo las notificaciones para cada tipo de notificación
         INotificacion correo = new CorreoElectronico("Hola, este es un correo electronico", "ejemplo@example.com");

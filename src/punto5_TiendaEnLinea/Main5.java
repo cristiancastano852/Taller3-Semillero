@@ -2,6 +2,8 @@ package punto5_TiendaEnLinea;
 
 public class Main5 {
     public static void main(String[] args) {
+        System.out.println("\n---Tienda en línea---");
+
         Electronica categoriaElectronica = new Electronica();
         Ropa categoriaRopa = new Ropa();
         Libros categoriaLibros = new Libros();

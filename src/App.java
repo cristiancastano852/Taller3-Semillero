@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+import punto10_FigurasEnUnLienzo.Main10;
 import punto1_figurasGeometricas.Main1;
 import punto1_figurasGeometricas.MedidaInvalidaException;
 import punto2_sistemaDeNotificaciones.Main2;
@@ -35,34 +36,43 @@ public class App {
             switch (point) {
                 case 1:
                     point1();
+                    exit=againMain();
                     break;
                 case 2:
                     point2();
+                    exit=againMain();
                     break;
                 case 3:
                     point3();
+                    exit=againMain();
                     break;
                 case 4:
                     point4();
+                    exit=againMain();
                     break;
 
                 case 5:
                     point5();
+                    exit=againMain();
                     break;
                 case 6:
                     point6();
+                    exit=againMain();
                     break;
                 case 7:
                     point7();
                     break;
                 case 8:
                     point8();
+                    exit=againMain();
                     break;
                 case 9:
                     point9();
+                    exit=againMain();
                     break;
                 case 10:
                     point10();
+                    exit=againMain();
                     break;
                 case 0:
                     exit = true;
@@ -77,38 +87,38 @@ public class App {
     }
 
     public static void point1() {
-        System.out.println("\n---Figuras Geométricas---");
+        //Figuras Geométricas
         Main1 punto1 = new Main1();
         punto1.main(null);
     }
 
     public static void point2() {
-        System.out.println("\n---Sistema de Notificaciones---");
+        //Sistemas de Notificaciones
         Main2 punto2 = new Main2();
         punto2.main(null);
     }
 
     public static void point3() {
-        System.out.println("\n---Banco y cuentas---");
+        //Banco y cuentas
         Main3 punto3 = new Main3();
         punto3.main(null);
     }
 
     public static void point4() {
-        System.out.println("\n---Juego de Cartas---");
+        //Juego de cartas
         Main4 punto4 = new Main4();
         punto4.main(null);
     }
 
     public static void point5() {
-        System.out.println("\n---Tienda en línea---");
+        //Tienda en línea
         Main5 punto5 = new Main5();
         punto5.main(null);
 
     }
 
     public static void point6() {
-        System.out.println("\n---Animales y sonidos---");
+        //Animales y sonidos
         Main6 punto6 = new Main6();
         punto6.main(null);
         
@@ -116,7 +126,7 @@ public class App {
     }
 
     public static void point7() {
-        System.out.println("\n--- Formas geométricas y áreas con POLIMORFISMO ---");
+        //Formas geométricas y áreas
         Main7 punto7 = new Main7();
         try {
             punto7.main(null);
@@ -126,20 +136,37 @@ public class App {
     }
 
     public static void point8() {
-        System.out.println("\n--- Empleados y salarios ---");
+        //Empleados y salarios
         Main8 punto8 = new Main8();
         punto8.main(null);
 
     }
 
     public static void point9() {
-        System.out.println("\n--- Instrumentos musicales ---");
+        //Instrumentos musicales
         Main9 punto9 = new Main9();
         punto9.main(null);
 
     }
 
     public static void point10() {
+        //Figuras en un lienzo
+        Main10 punto10 = new Main10();
+        punto10.main(null);
 
     }
+
+    
+    public static boolean againMain() {
+        Scanner scanner = new Scanner(System.in);
+        boolean end=false;
+        System.out.println("\nDesea regresar al menú principal: ");
+        System.out.println("1. Si ");
+        System.out.println("2. No ");
+        int opcion = scanner.nextInt();
+        if(opcion!=1){
+            end=true;
+        }
+        return end;
+}
 }

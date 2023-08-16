@@ -2,6 +2,8 @@ package punto3_bancoycuentas;
 
 public class Main3 {
     public static void main(String[] args) {
+        System.out.println("\n---Banco y cuentas---");
+
         CuentaAhorro cuentaAhorro = new CuentaAhorro(1000, 0.05);
         CuentaCorriente cuentaCorriente = new CuentaCorriente(500, 200);
 

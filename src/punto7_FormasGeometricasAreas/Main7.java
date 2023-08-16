@@ -11,6 +11,7 @@ public class Main7 {
         */
 
         // Crear un array de 3 figuras geométricas (2 círculos y 1 cuadrado) y mostrar el área de cada una de ellas.
+        System.out.println("\n--- Formas geométricas y áreas con POLIMORFISMO ---");
         IFiguraGeometrica[] formas = new IFiguraGeometrica[3];
         formas[0] = new Circulo("Círculo", 5);
         formas[1] = new Cuadrado("Cuadrado", 3);

@@ -2,6 +2,8 @@ package punto4_juegoDeCartas;
 
 public class Main4 {
     public static void main(String[] args) {
+        System.out.println("\n---Juego de Cartas---");
+
         Baraja baraja = new Baraja();
         System.out.println("\nMezclando el mazo...");
         baraja.mezclar();

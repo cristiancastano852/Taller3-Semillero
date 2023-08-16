@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Main8 {
     public static void main(String[] args) {
+        System.out.println("\n--- Empleados y salarios ---");
         ArrayList<Empleado> empleados = new ArrayList<>();
         empleados.add(new EmpleadoAsalariado("Cristian", 3000));
         empleados.add(new EmpleadoPorHoras("Manuela", 20, 18));
